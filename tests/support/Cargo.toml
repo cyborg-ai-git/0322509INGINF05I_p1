@@ -1,0 +1,15 @@
+[package]
+name = "atm_test_support"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.96"
+publish = false
+description = "Supporto ai test: processi PTY indipendenti e verifica causale dei log ATM."
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0"
+getrandom = "0.3"
+portable-pty = "0.9.0"
+serde_json = "1.0"
+socket2 = "0.6"
